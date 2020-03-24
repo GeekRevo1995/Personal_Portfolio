@@ -1,0 +1,768 @@
+<!doctype html>
+<html>
+ <head>
+    <title>Adam Portfolio</title>
+     <link rel="icon" href="img/favicon.ico" />
+     <meta charset="utf-8" />
+     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" /> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="HandheldFriendly" content="true">
+     
+   <script type="text/javascript">
+wow = new WOW(
+      {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    })
+    wow.init(); 
+</script>   
+ <script type="text/javascript">
+      $(document).ready(function(){
+      $('#Container-mixup').mixItUp();
+      })
+    </script>
+
+
+<!-----------------
+script load page
+--------------------->
+<script type="text/javascript">
+$(window).load(function()
+{ 
+$(".loading-center").fadeOut(5000,
+function()
+{
+$(this).parent().fadeOut(100,
+function(){
+$("body").css('overflow-y','scroll');  
+$("body").css('overflow-x','hidden');        
+$("#loading").remove();
+$('.loading-center .right').css('transform','translateX(100%)');
+$('.loading-center .left').css('transform','translateX(-100%)');
+}
+);
+}                                    
+);            
+});        
+</script> 
+     
+</head>
+<body id="body">
+<section class="full-container">    
+  <div id="side_bar" class="wow slideInLeft">
+      <div class="you_img"></div>
+      <ul class="slid_list">
+          <li><a href="#" class="selected" onclick="slidePage(0)"> 
+              <i class="fa fa-user"></i> &nbsp; <span>About </span> </a></li>
+          
+          <li><a href="#" class="hvr-rectangle-out" onclick="slidePage(1)"> 
+              <i class="fa fa-camera"></i> &nbsp; <span>Portfolio</span> </a></li>
+          
+            <li><a href="#" onclick="slidePage(2)" class="hvr-rectangle-out">
+                <i class="fa fa-envelope"></i>
+                &nbsp; <span>Contact</span>
+                </a></li>  
+      </ul>
+    <div class="footer_side">
+      <ul class="social_media">
+          <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+        <p>CopyRight &copy;2016</p>
+      </ul>
+      </div>
+       <div class="floor">
+           <span> Party Maker </span>
+        </div>
+    </div>
+    
+<!-----------------
+   page about
+------------------->
+      
+<div class="about-page" id="about">
+    <div class="container">
+    <div class="background_about">
+        <h2> Stay Hungrey Stay Folish </h2>
+        <div class="lign_text"></div>
+    </div>    
+         <div class="main">
+            <h3> WHO AM I </h3>
+              <hr class="lign"/>
+         </div>					
+<div class="profile margBSmall">
+<h1>Adam Ramdane</h1>
+<h3>Web designer / Web developer</h3>
+</div>
+
+<!--Row-->	
+<div class="row-profile">
+<div class="col-1">
+<p>Sed ut perspiciatis unde omnis iste natus error
+ sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+ eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+ vitae dicta sunt explicabo. Nemo enim ipsam voluptatem. </p>
+</div>
+
+
+<div class="col-2">
+<div class="blog-col-2">
+<i class="fa fa-music"></i>
+    <h3><strong>Hobbies</strong> & Interests</h3>
+<div class="icon-hobbies">
+    <div class="plane"> <span><i class="fa fa-plane"></i></span>  <p class="title">Travel</p>
+    </div>
+    <div class="plane">
+    <span><i class="fa fa-camera-retro"></i></span>  
+    <p class="title">Photograph</p>
+    </div>
+    <div class="plane">    
+    <span><i class="fa fa-futbol-o"></i></span>
+    <p class="title">Football</p>
+     </div>    
+    </div>
+</div>    
+</div>
+
+</div>
+<!--End row-->	
+        
+<div class="row-info">
+    
+<div class="col-1">
+<ul class="info-list clearfix">
+<li><span class="inf">Name : </span>  <span class="value">Adam</span></li>
+<li><span class="inf">Date of birth :</span>  <span class="value"> July 07, 1995 </span></li>
+<li><span class="inf">Address :</span>  <span class="value">
+    Hay Al Inbiaat rue Takourirt </span></li>
+</ul>
+
+</div>
+
+<div class="col-2">
+<ul class="info-list">
+<li><span class="inf">Email :</span>  <span class="value">geek20155@gmail.com</span></li>
+<li><span class="inf">Phone :</span>  <span class="value"> +212 6 45 54 73 65 </span></li>
+<li><span class="inf">Skype :</span>  <span class="value">Adam Ramdane</span></li>
+</ul>
+</div>
+</div>        
+<!--- end row -->        
+
+<!------------------
+  Skills Design
+-------------------->
+        
+    <div class="skill">
+     <h3>PROFESSIONAL SKILLS</h3>    
+        <hr class="lign"/>
+        
+<div class="content-skil">
+<!--Row-->	
+<div class="row-skill first ">
+<span class="design">Design</span>
+<ul class="skills-list clearfix">
+<li>
+<h4>Photoshop</h4>
+<div class="progress">
+<div class="percentage" style="width: 75%;"></div>
+</div>
+</li>
+<li>
+<h4>Illustrator</h4>
+<div class="progress">
+<div class="percentage" style="width: 85%;"></div>
+</div>
+</li>
+<li>
+<h4>Indesign</h4>
+<div class="progress">
+<div class="percentage" style="width: 70%;"></div>
+</div>
+</li>
+</ul>
+    </div>
+<!--End row-->
+    
+<!--Row-->	
+<div class="row-language post">
+<span class="coding">Coding</span>    
+<ul class="skills-list clearfix">
+<li>
+<h4>HTML / CSS</h4>
+<div class="progress">
+<div class="percentage" style="width: 85%;"></div>
+</div>
+</li>
+<li>
+<h4>JAva Script / Jquery</h4>
+<div class="progress">
+<div class="percentage" style="width: 70%;"></div>
+</div>
+</li>
+<li>
+<h4>Asp / Sql Server</h4>
+<div class="progress">
+<div class="percentage" style="width: 80%;"></div>
+</div>
+</li>
+</ul>
+
+  </div>
+<!--End row-->  
+    
+<!--Row-->	
+<div class="row-Assets post">
+<span class="Assets">Assets</span>    
+<ul class="skills-list clearfix">
+<li>
+<h4>RESPONSIBLE</h4>
+<div class="progress">
+<div class="percentage" style="width: 90%;"></div>
+</div>
+</li>
+<li>
+<h4>CREATIVE</h4>
+<div class="progress">
+<div class="percentage" style="width: 68%;"></div>
+</div>
+</li>
+<li>
+<h4>MULTITASKING</h4>
+<div class="progress">
+<div class="percentage" style="width: 80%;"></div>
+</div>
+</li>
+</ul>
+
+  </div>
+<!--End row-->        
+</div>
+<!--End block content-->
+    <!--End skill design-->
+
+</div>  
+    
+<!----------------------------------
+   Experience Desing
+------------------------------------>
+        
+    <div class="Experience">
+         <h3>Experience</h3>    
+        <hr class="lign"/>
+     <div class="blog-content">
+         <div class="Experience-row">
+            <span class="work-icon"><i class="fa fa-briefcase"></i></span>
+        <div class="exp">
+           	<div class="hgroup">
+    <h4>WebDesigner – Mutation Media </h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp; Feb 2015 - <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>
+             
+         <div class="exp two">
+           	<div class="hgroup">
+    <h4>Web Developer – Mutation Media</h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp;Sept 2015 - Nov 2015 <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>
+            
+         <div class="exp two">
+           	<div class="hgroup">
+    <h4>SDK Developer – Mutation Media </h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp; May 2015 - Sept 2015 <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>
+                 
+            
+         </div>
+     </div>
+    </div> 
+        
+<!-----------------***
+   Education
+------------------***-->
+        
+     <div class="Education">
+         <h3> Education</h3>    
+        <hr class="lign"/>
+     <div class="blog-content edx">
+         <div class="Experience-row">
+            <span class="work-icon"><i class="fa fa-graduation-cap"></i></span>
+        <div class="exp">
+           	<div class="hgroup">
+    <h4>Bachelor Degree – Mutation Media </h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp; Mar 2012 - May 2013 <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>    
+    </div>   
+         
+         <div class="Experience-row">
+            <span class="work-icon"><i class="fa fa-graduation-cap"></i></span>
+        <div class="exp">
+           	<div class="hgroup">
+    <h4> Deug Degree </h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp; Mar 2013 - May 2014 <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>    
+    </div>         
+         
+         <div class="Experience-row">
+            <span class="work-icon"><i class="fa fa-graduation-cap"></i></span>
+        <div class="exp">
+           	<div class="hgroup">
+    <h4> Diplome Technicier Specialisé </h4>
+    <h6><i class="fa fa-calendar-check-o"></i> &nbsp; Mar 2014 - May 2016 <span class="current">Current</span></h6>
+</div>
+<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in        reprehend
+     incididunt labore
+     et dolore magna aliqua. Ut enim ad minim
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+     ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>      
+        </div>    
+    </div>              
+</div>
+  </div>
+        
+<!-------------------
+     SERVICE
+-------------------->
+  
+        <div class="service">
+           <h3>service</h3>    
+           <hr class="lign"/>
+            
+<div class="row-service">
+<div class="col-service">
+        <div class="ico">
+       <i class="fa fa-life-ring"></i>
+        </div>
+
+        <div class="det">
+        <h3>Great Support</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>
+<div class="col-service">
+        <div class="ico">
+       <i class="fa fa-bullhorn"></i>
+        </div>
+
+        <div class="det">
+        <h3>Marketing</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>  
+    <div class="col-service">
+        <div class="ico">
+       <i class="fa fa-modx"></i>
+        </div>
+
+        <div class="det">
+        <h3>CEO</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>  
+</div>
+      <img src="img/lign.PNG" /> 
+            
+<div class="row-service">
+<div class="col-service">
+        <div class="ico">
+      <i class="fa fa-desktop"></i>
+        </div>
+
+        <div class="det">
+        <h3>Web Design</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>
+<div class="col-service">
+        <div class="ico">
+       <i class="fa fa-diamond"></i>
+        </div>
+
+        <div class="det">
+        <h3>Development</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>  
+    <div class="col-service">
+        <div class="ico">
+     <i class="fa fa-lightbulb-o"></i>
+        </div>
+
+        <div class="det">
+        <h3>BRANDING</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+    </div>
+
+    </div>  
+</div>                    
+</div>        
+        
+<!------------------
+   Testmonail
+------------------->
+        
+<div class="testmonials">       
+    <h3>TESTIMONIALS</h3>    
+     <hr class="lign"/>
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item-1" id="box1">
+    <div class="blog-quote">
+      <div class="blog-img">
+          <img src="img/2.jpg" />
+      </div>
+    <div class="blog-icon">
+        <span class="ico-quote"> <i class="fa fa-quote-left"></i></span>
+    </div>
+    <h3>Zakaria  &nbsp;
+        <span class="title">Web Designer & developer</span>
+    </h3> 
+    <blockquote>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+ totam rem aperiam, eaque ipsa quae ab illo
+ inventore veritatis et quasi architecto.    
+    </blockquote>  
+        
+    </div> 
+  </div>
+    
+   <div class="item-2" id="box2">
+    <div class="blog-quote">
+      <div class="blog-img">
+          <img src="img/profile.jpg" />
+      </div>
+    <div class="blog-icon">
+        <span class="ico-quote"> <i class="fa fa-quote-left"></i></span>
+    </div>
+    <h3>Soufiane Belchhab &nbsp;
+        <span class="title">Web Designer & developer</span>
+    </h3> 
+    <blockquote>
+     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+ totam rem aperiam, eaque ipsa quae ab illo
+ inventore veritatis et quasi architecto.   
+    </blockquote>    
+    </div>  
+  </div>
+      <div class="item-for-mobile">
+    <div class="blog-quote">
+      <div class="blog-img">
+          <img src="img/2.jpg" />
+      </div>
+    <div class="blog-icon">
+        <span class="ico-quote"> <i class="fa fa-quote-left"></i></span>
+    </div>
+    <h3>Zakaria  &nbsp;
+        <span class="title">Web Designer & developer</span>
+    </h3> 
+    <blockquote>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+ totam rem aperiam, eaque ipsa quae ab illo
+ inventore veritatis et quasi architecto.    
+    </blockquote>  
+        
+    </div> 
+  </div>
+</div>  
+    <div class="point">
+<span id="btn1" onclick="right()" class="slide-cercle"></span>
+<span id="btn2" onclick="left()" class="slide-cercle"></span>
+    </div>
+    
+</div>
+      
+<!------------------
+   Downoald button
+------------------->        
+        
+<div class="downoald">
+  <img src="img/lign.PNG" class="lign_img"/>
+<div class="center">    
+ <a href="#" class="hvr-bounce-to-right"><i class="fa fa-download"></i> &nbsp; Downoald My CV</a>
+     <a href="#" class="hvr-bounce-to-right"><i class="fa fa-print"></i> &nbsp; Print My Resume</a>   
+    </div>    
+</div>
+ </div>
+    </div>
+<!--------------------
+    END About Page 
+--------------------->
+    
+ <!------------------
+   Portfolio page 
+--------------------->
+    
+  <div class="portfolio-page" id="portfolio">
+    <div class="container">  
+     <h3>Portfolio</h3>    
+     <hr class="lign"/>
+        
+    <ul class="portfolio_list">
+      <li class="selected filter" data-filter="all">ALL</li> 
+       <li class="filter" data-filter=".web_design"
+        onclick="MixUp()">
+           WEB DESIGN</li> 
+        <li class="filter" data-filter=".graphic">
+            GRAPHIC DESIGN</li> 
+         <li class="filter" data-filter=".m_graphic">
+             MOTION GRAPHIC</li> 
+    </ul> 
+     <img src="img/lign.PNG" class="lign_img"/>
+    <div id="Container-mixup" class="gallery">
+    <div class="row">    
+      <div class="mix web_design col-md-4">
+          <div class="overlay">
+               <div class="desc"> 
+              <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span>
+          </div>  
+          </div>
+        <img src="img/2%20(1).jpg" />  
+       </div>    
+        <div class="mix graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+              <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span>
+          </div> 
+            </div>
+        <img src="img/3.jpg" />  
+        </div>     
+        <div class="mix m_graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span> 
+          </div>
+            </div>
+        <img src="img/4.jpg" />  
+        </div>    
+    </div>
+        <div class="row">
+        <div class="mix graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span> 
+          </div>
+            </div>
+        <img src="img/5.jpg" />  
+        </div>    
+       <div class="mix graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+              <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span> 
+          </div> 
+           </div>
+        <img src="img/6.jpg" />  
+        </div>    
+        <div class="mix m_graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span>
+          </div> 
+            </div>
+        <img src="img/8.jpg" />  
+        </div>    
+        </div>
+        <div class="row">
+        <div class="mix web_design col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span> 
+          </div> 
+            </div>
+        <img src="img/10.jpg" />  
+        </div>    
+       <div class="mix web_design col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+            <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span>
+            </div>
+             </div>
+         </div>
+        <img src="img/11.jpg" />  
+        </div>    
+        <div class="mix m_graphic col-md-4">
+         <div class="overlay">
+              <div class="desc"> 
+             <b>Project Name</b><br/> 
+              <span class="lign-btw"></span> 
+               <span class="type">Web Design</span>
+             </div>
+          </div>       
+        <img src="img/12.jpg" />  
+        </div>    
+        </div>
+       </div> 
+    <div class="downoald">
+        <img src="img/lign.PNG" class="lign_img"/> 
+<div class="center">    
+ <a href="#" class="hvr-bounce-to-right"><i class="fa fa-download"></i> &nbsp; Downoald My CV</a>
+     <a href="#" class="hvr-bounce-to-right"><i class="fa fa-print"></i> &nbsp; Print My Resume</a>   
+    </div>
+    </div>
+  </div>    
+</div>
+    
+<!-----------------------------------
+     Contact Page
+------------------------------------>
+    
+  <div class="contact-page" id="contact"> 
+    <div class="container">
+     <h3>Map Location</h3>    
+     <hr class="lign"/>
+<div class="icon-club"/></div>
+      
+<div class="map">    
+<iframe frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"width="100%" height="440" src="https://maps.google.com/maps?hl=en&q=salé morocco&ie=UTF8&t=m&z=14&iwloc=B&output=embed"></iframe> 
+ </div>    
+      
+     <h3>Contact Info</h3>    
+     <hr class="lign"/> 
+        
+    <fieldset class="field">
+      <legend class="first-legend"><i class="fa fa-map-marker"></i></legend>  
+      <h3>The Company Name Inc.1234 Street Road <br />
+City Name,IN 567 890.</h3> 
+
+<div class="contact-info tCenter">
+<ul>
+    <li>
+<p>Email : name@gmail.com </p>
+     <legend><i class="fa fa-envelope"></i></legend>
+    </li>
+    <li>
+<p>Tel : + 123-456-789</p>
+ <legend><i class="fa fa-phone"></i></legend>
+    </li>
+    <li> 
+<p>WebSite : <a href="#">www.yoursite.com</a></p>
+    <legend><i class="fa fa-link"></i></legend>
+    </li>
+</ul>
+</div>      
+    </fieldset>
+        
+     <h3>Contact US</h3>    
+     <hr class="lign"/>     
+    
+    <form class="contact-form">
+      <input type="text" placeholder="Name" id="name" />
+      <input type="text" placeholder="Email" id="email" />
+      <input type="text" placeholder="Subject" id="subject" />
+      <textarea placeholder="Message" id="textarea"></textarea>
+      <input type="submit" value="Send" id="btn-send"/>
+    </form>  
+        
+          <div class="downoald">
+        <img src="img/lign.PNG" class="lign_img"/> 
+<div class="center">    
+ <a href="#" class="hvr-bounce-to-right"><i class="fa fa-download"></i> &nbsp; Downoald My CV</a>
+     <a href="#" class="hvr-bounce-to-right"><i class="fa fa-print"></i> &nbsp; Print My Resume</a>   
+    </div>
+</div>
+      </div>
+    </div>
+    
+<!---------------------------------
+    End Contact page
+---------------------------------->
+   
+</section>
+
+<div id="loading">
+    <div class="loading-center left"></div>
+    <div class="loading-center right"></div>
+<div id="loading-center-absolute">
+<div class="object" id="object_one"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_four"></div>
+</div>
+</div>
+
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="script.js"></script>    
+    
+<script type="application/javascript">
+$(document).ready(function()
+                 {
+     $('.slid_list a').click(function()
+     {
+       $('.slid_list a').removeClass('selected');
+       $(this).addClass('selected');
+     });
+    
+    $('.portfolio_list li').click(function(){
+        
+        $('.portfolio_list li').removeClass('selected');
+        $(this).addClass('selected');
+    })
+}); 
+</script>
+ 
+<script type="text/javascript">
+  $('.map').click(function () {
+    $('.map iframe').css("pointer-events", "auto");
+});
+</script>    
+    
+</body>
+</html>
